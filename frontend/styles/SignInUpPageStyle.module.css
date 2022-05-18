@@ -1,0 +1,147 @@
+#content {
+  height: 85vh;
+  width: 100%;
+  background: #ffffef;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#lower_container,
+#form {
+  position: relative;
+  height: 25%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#form_title{
+  font-size: 28px;
+  margin: 0;
+}
+#content p,
+#content a {
+  color: #18838b;
+}
+#form {
+  height: 60%;
+}
+
+#form form {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#form input {
+  height: 12.5%;
+  width: 85%;
+  color: #454545;
+  font-size: 20px;
+  padding-left: 5%;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+#form button {
+  height: 15%;
+  width: 30%;
+  border: none;
+  outline: none;
+  background: linear-gradient(180deg, #20989a 0%, #70c7c7 100%);
+  border-radius: 10px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  color: white;
+  font-size: 26px;
+  cursor: pointer;
+  margin-top: 2.5%;
+}
+
+#form a {
+  text-decoration: none;
+  margin-bottom: 5%;
+}
+#form #forgot_password_a {
+  color: #45454580;
+  font-size: 14px;
+}
+#form #create_account_a {
+  color: #20989a;
+  font-size: 19px;
+}
+#form a:hover {
+  text-decoration: underline;
+}
+/* signup page form content design */
+#form div {
+  height: 15%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#form div input {
+  height: 100%;
+  width: 40%;
+}
+#form #have_account_a {
+  color: #20989a;
+  font-size: 19px;
+}
+
+#error_div {
+  height: 12.5%;
+  width: 85%;
+  background: rgba(151, 5, 5, 0.589);
+  overflow: hidden;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#error_div #error_p {
+  width: 100%;
+  font-size: 18px;
+  color: white;
+  cursor: default;
+}
+
+#lower_container #button_container{
+  height: 75%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#button_container button {
+  position: relative;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  outline:none;
+  overflow: hidden;
+}
+#lower_container a {
+  margin-top: 2.5%;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+#copyright{
+  color: #45454580;
+font-family: 'JetBrains Mono', monospace;
+font-weight: 500;
+}

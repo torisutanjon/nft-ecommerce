@@ -1,0 +1,267 @@
+#content {
+  height: 300vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#hero {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#logo {
+  height: 30%;
+  width: 100%;
+  background: url("../../images/alabaster-collections-hero.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#icon_container {
+  position: absolute;
+  height: 11%;
+  width: 12.5%;
+  top: 3%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#icon_div {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 5px white solid;
+  overflow: hidden;
+  padding: 0;
+}
+#icon_container button {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  margin-top: 45%;
+  margin-left: 75%;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: url("../../images/edit.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#name_div {
+  height: 10%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+#name_div p {
+  color: #454545;
+  font-size: 40px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+}
+#social_media_div {
+  height: 10%;
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#social_media_div button {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#fb_icon {
+  background: url("../../images/fb-50.png");
+}
+#linkedin_icon {
+  background: url("../../images/linkedin-50.png");
+}
+#twitter_icon {
+  background: url("../../images/twitter-50.png");
+}
+
+#description_div {
+  height: 15%;
+  width: 25%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#description_div p {
+  color: #000000b2;
+  font-size: 20px;
+}
+#stats_container {
+  height: 19%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.stats_divs {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stats_title {
+  font-size: 20px;
+  color: #454545;
+  margin: 0;
+}
+#floor_price_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.stats_data {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  color: #454545;
+  font-size: 35px;
+  margin: 0;
+}
+
+#addtolistdiv{
+  height: 1%;
+  width: 80%;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: #056A72;
+  font-size: 22px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  cursor: pointer;
+}
+#addtolistdiv button{
+  height: 20px;
+  width: 20px;
+  border: none;
+  outline: none;
+  background-color: none;
+  background: url('../../images/cross_btn.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#filter_div {
+  height: 7.5%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+#select_container {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+}
+.select_div {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.select_div p {
+  font-size: 20px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 300;
+  color: rgb(41, 41, 41);
+  margin: 0;
+}
+.select_div select {
+  height: 30%;
+  width: 80%;
+  background: linear-gradient(270deg, #15aeac 11.94%, #70c7c7 90.28%);
+  border-radius: 10px;
+  padding: 5%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: white;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 300;
+  cursor: pointer;
+}
+.select_div option {
+  color: #000000;
+  font-size: 16px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 300;
+}
+#search_bar {
+  height: 30%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin-top: 2%;
+  border: 2px solid rgba(9, 120, 130, 0.8);
+  box-sizing: border-box;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-left: 10%;
+}
+#search_bar button {
+  height: 100%;
+  width: 15%;
+  border: none;
+  outline: none;
+  background: url("../../images/search_icon.png");
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border-radius: 25px;
+}
+#search_bar button:active {
+  background: #0a768050;
+}
+#search_bar input {
+  height: 100%;
+  width: 85%;
+  border: none;
+  outline: none;
+  color: #0a7780;
+  font-size: 14px;
+}
+#collections_container {
+  height: 60%;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  align-self: center;
+}

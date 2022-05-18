@@ -1,0 +1,107 @@
+#navigation_div {
+  height: 30vh;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#navigation_div p {
+  color: #097882;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+}
+#title_div,
+#clickables_div {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#title_div {
+  justify-content: center;
+}
+#title_div p {
+  margin-top: 10%;
+  font-size: 40px;
+}
+#buttons_div,
+#search_bar {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+#buttons_div button {
+  height: 40%;
+  width: 30%;
+  margin-right: 5%;
+  color: #0c868d;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+  background: none;
+}
+#buttons_div button:hover {
+  background: rgba(6, 97, 102, 0.5);
+  color: rgb(255, 255, 255, 0.75);
+}
+#search_bar {
+  height: 55%;
+  border: 1.5px solid rgba(9, 120, 130, 0.8);
+  box-sizing: border-box;
+  border-radius: 35px;
+  overflow: hidden;
+}
+#search_bar button {
+  height: 100%;
+  width: 15%;
+  border: none;
+  outline: none;
+  background: url("../images/search_icon.png");
+  background-size: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: none;
+  border-radius: 35px;
+  cursor: pointer;
+}
+#search_bar input {
+  height: 100%;
+  width: 85%;
+  border: none;
+  color: #0a7780;
+  font-size: 14px;
+  outline: none;
+}
+#content {
+  height: 70vh;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#content::-webkit-scrollbar {
+  height: 12.5px;
+}
+/* Track */
+#content::-webkit-scrollbar-track {
+  background: rgb(224, 224, 224);
+  border-radius: 10px;
+}
+
+/* Handle */
+#content::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #0a7780 25.2%, #15aeac 76.02%);
+  border-radius: 10px;
+  cursor: pointer;
+}

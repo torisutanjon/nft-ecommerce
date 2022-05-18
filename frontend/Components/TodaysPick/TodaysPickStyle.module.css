@@ -1,0 +1,6 @@
+#trending_body_content {
+  height: 85%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}

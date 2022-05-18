@@ -1,0 +1,74 @@
+#body {
+  position: relative;
+  height: 150vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#topnav {
+  position: relative;
+  height: 15%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  color: #056a72;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+}
+#title_container {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#title_container {
+  font-size: 40px;
+}
+#add_btn_container {
+  position: relative;
+  height: 25%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+}
+#add_btn_container a {
+  text-decoration: none;
+  color: #056a72;
+}
+#add_btn {
+  position: relative;
+  height: 35px;
+  width: 150px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#plus_icon_container {
+  position: relative;
+  height: 50%;
+  width: 12%;
+}
+#add_btn p {
+  font-size: 20px;
+}
+
+#content {
+  height: 80%;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+#footer {
+  height: 5%;
+  width: 100%;
+}

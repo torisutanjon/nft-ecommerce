@@ -1,0 +1,73 @@
+.card {
+  position: relative;
+  height: 300px;
+  width: 90%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 15%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.logo_container {
+  position: absolute;
+  height: 75px;
+  width: 100%;
+  top: 27.5%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo_container div {
+  position: relative;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  border: 5px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.cover {
+  position: relative;
+  height: 40%;
+  width: 100%;
+}
+.content {
+  position: relative;
+  height: 60%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content div {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+.content div p {
+  color: #454545;
+  font-size: 14px;
+}
+.content .title {
+  font-size: 20px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  margin-top: 20%;
+}

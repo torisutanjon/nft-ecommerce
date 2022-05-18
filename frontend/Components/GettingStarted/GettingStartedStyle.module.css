@@ -1,0 +1,47 @@
+#body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#title {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#title p {
+  font-size: 40px;
+  color: #0a7780;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+}
+#content {
+  height: 75%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.inner_div {
+  height: 80%;
+  width: 25%;
+  overflow: hidden;
+}
+.hero {
+  background: #f2f1c5;
+  height: 70%;
+  width: 100%;
+}
+.text {
+  height: 30%;
+  width: 100%;
+}
+.text p {
+  text-align: center;
+  font-size: 12px;
+}

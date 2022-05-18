@@ -1,0 +1,146 @@
+.section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero_section {
+  height: 80vh;
+}
+#alabaster_collections_section,
+#trending_section {
+  height: 160vh;
+}
+#suggested_collections_section {
+  height: 60vh;
+}
+#suggested_collections_section,
+#suggested_creators_section {
+  height: 60vh;
+}
+#nftcategories_section {
+  height: 110vh;
+}
+#todayspick_section {
+  height: 70vh;
+}
+#nftcategories_section {
+  margin-top: 5%;
+}
+#footer_section {
+  margin-top: 5%;
+  height: 30vh;
+  background: #F8F8F8;
+}
+
+#footer_container {
+  height: 100%;
+  width: 90%;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+}
+#footer_container p,
+#footer_container a {
+  margin: 0;
+  padding: 0;
+  color: #0a7780;
+  text-decoration: none;
+  font-size: 12px;
+}
+#footer_leftside,
+#footer_rightside {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#footer_leftside {
+  flex-direction: column;
+}
+#footer_leftside .footer_title p {
+  color: #0a7780;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 100;
+}
+#footer_leftside .footer_middle_container p {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+}
+#footer_rightside {
+  flex-direction: row;
+}
+#footer_contact_container,
+#footer_publish_container,
+#footer_community_container {
+  height: 100%;
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.footer_title {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.footer_title div {
+  position: relative;
+  height: 35px;
+  width: 30px;
+}
+.footer_middle_container {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.footer_bottom_container {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#footer_rightside .footer_middle_container,
+#footer_rightside .footer_bottom_container {
+  align-items: flex-end;
+}
+#footer_rightside .footer_title p {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  font-size: 22px;
+}
+#footer_rightside button {
+  height: 60%;
+  width: 12.5%;
+  margin-right: 7.5%;
+  border: none;
+  outline: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: none;
+  border-radius: 5px;
+  overflow: hidden;
+}
+#twitter_btn {
+  background: url("../images/Twitter-icon.png");
+}
+#fb_btn {
+  background: url("../images/fb-icon.png");
+}
+#linked_btn {
+  background: url("../images/linkedin-50.png");
+}
+#discord_btn {
+  background: url("../images/discord_icon.png");
+}

@@ -1,0 +1,86 @@
+#card {
+  position: relative;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#card:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#background {
+  position: absolute;
+  height: 47.5%;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+#lower_container {
+  position: relative;
+  height: 65%;
+  width: 100%;
+}
+#logo_container {
+  position: relative;
+  height: 35%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#category {
+  position: absolute;
+  height: 35%;
+  width: 32.5%;
+  background: linear-gradient(180deg, #15aeac 0%, #70c7c7 100%);
+  border-radius: 10px;
+  left: 2.5%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#category p {
+  font-size: 10px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  color: white;
+}
+#logo {
+  position: relative;
+  height: 100%;
+  width: 25%;
+  border-radius: 59%;
+  border: 5px solid white;
+  overflow: hidden;
+  z-index: 1;
+}
+#info_div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+#info_div p {
+  margin-top: 15%;
+  font-size: 12px;
+  color: #454545;
+  margin: 0;
+  margin-top: 5%;
+}
+#title_container p {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  font-size: 16px;
+}

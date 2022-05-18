@@ -1,0 +1,70 @@
+.card_container {
+  height: 450px;
+  width: 90%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.card_container:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#itemdivone_container {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_container {
+  height: 10%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.buy_btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #454545;
+  font-size: 15px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.buy_btn:hover {
+  color: rgb(11, 94, 228);
+}
+.like_count_div {
+  height: 50%;
+  max-width: 35%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.like_count_div button {
+  height: 20px;
+  width: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-right: 5px;
+  background-color: none;
+}
+
+.like_count_div p {
+  color: #454545;
+  font-size: 20px;
+}

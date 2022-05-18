@@ -1,0 +1,142 @@
+#content {
+  height: 150vh;
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#content p {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  color: #454545;
+  font-size: 26px;
+  margin: 0;
+  margin-top: 5%;
+}
+
+#content #left_side,
+#content #right_side {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#content #left_side {
+  width: 55%;
+}
+#content #left_side input {
+  height: 7.5%;
+  margin-top: 2.5%;
+  width: 80%;
+  font-size: 18px;
+  color: #454545da;
+  padding-left: 2.5%;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+#content #left_side textarea {
+  height: 15%;
+  margin-top: 2.5%;
+  width: 80%;
+  font-size: 18px;
+  color: #454545da;
+  padding-left: 2.5%;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 100;
+}
+#left_side div {
+  display: flex;
+  flex-direction: row;
+}
+#left_side #collection_description_p {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 100;
+  color: #454545cc;
+  font-size: 13px;
+  margin: 1%;
+}
+
+#left_side #a_container{
+  margin-top: 1%;
+  height: 1%;
+  width: 65%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#left_side #a_container a{
+  color: #454545E5;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
+#left_side option{
+  color: black;
+}
+#left_side a {
+  align-self: flex-start;
+  margin-left: 1%;
+  text-decoration: none;
+  color: #0a7780;
+}
+#left_side a:hover {
+  text-decoration: underline;
+}
+#left_side button {
+  height: 6%;
+  width: 20%;
+  background: linear-gradient(270deg, #15aeac 11.94%, #70c7c7 90.28%);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+font-family: 'JetBrains Mono', monospace;
+font-weight: 500;
+  font-size: 20px;
+  margin-top: 7.5%;
+  margin-bottom: 10%;
+}
+#content #right_side {
+  width: 45%;
+}
+#right_side div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+#right_side #required_field_p {
+  font-size: 13px;
+  color: #454545cc;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 100;
+}
+#right_side button {
+  position: relative;
+  height: 45%;
+  width: 100%;
+  background-color: #f2f1c5;
+  border: 1px dashed #454545;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+}
+#right_side #footer_p {
+  color: #0a7780;
+  font-size: 13px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 100;
+}
+
+

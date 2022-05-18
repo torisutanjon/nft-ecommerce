@@ -1,0 +1,143 @@
+#body {
+  height: 70vh;
+  width: 80%;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+}
+#left_side,
+#right_side {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+#left_side p {
+  color: #454545;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  font-size: 32px;
+  margin: 0;
+}
+#info_div {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 90%;
+  margin: 0;
+  margin-left: 5%;
+}
+#info_div p {
+  color: #000000b2;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 100;
+  font-size: 19px;
+}
+#creatorname_div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2.5%;
+}
+#creatorname_div #creatorname_p {
+  padding-left: 1.5%;
+  color: #097882;
+}
+#price_div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#price_div p {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  color: #454545;
+}
+#buy_btn {
+  height: 15%;
+  width: 35%;
+  margin-top: 5%;
+  background: linear-gradient(270deg, #15aeac 11.94%, #70c7c7 90.28%);
+  border-radius: 10px;
+  font-size: 25px;
+  color: white;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#buy_btn:hover {
+  color: #ffd700;
+}
+#offer_btn {
+  height: 7.5%;
+  width: 35%;
+  margin-top: 2.5%;
+  border: 1px #15aeac solid;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#offer_btn:hover {
+  color: #ffd700;
+}
+#right_side {
+  align-items: flex-end;
+}
+#image_div {
+  position: relative;
+  height: 90%;
+  width: 90%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+#stats_div {
+  height: 10%;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+}
+#stats_div {
+  color: #454545;
+}
+#owners_div,
+#likes_div {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#stats_div button {
+  height: 20px;
+  width: 20px;
+  outline: none;
+  border: none;
+}
+#owners_div {
+  width: 70%;
+}
+#owners_div button {
+  background: url("../images/owners-image.png");
+}
+#owners_div p {
+  font-size: 17px;
+}
+#likes_div {
+  width: 30%;
+}
+#likes_div button {
+  background: url("../images/pink-heart.png");
+}
+#likes_div p {
+  font-size: 14px;
+}
+#stats_div button {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  pointer-events: none;
+}

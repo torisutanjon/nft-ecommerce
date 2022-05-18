@@ -1,0 +1,70 @@
+#card {
+  position: relative;
+  height: 400px;
+  width: 90%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 15%;
+  border-radius: 10px;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#card:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#cover_container {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  top: 0;
+}
+#lower_container {
+  height: 62.5%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#logo_container {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo_div {
+  position: relative;
+  height: 90%;
+  width: 25%;
+  border: 5px solid white;
+  border-radius: 50%;
+  z-index: 2;
+  overflow: hidden;
+}
+#info_div {
+  height: 60%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+#info_div p {
+  margin: 0;
+  margin-top: 5%;
+  font-size: 15px;
+}
+#info_div #title {
+  color: #454545;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  font-size: 19px;
+}

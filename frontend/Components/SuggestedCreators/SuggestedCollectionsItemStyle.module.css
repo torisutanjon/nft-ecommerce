@@ -1,0 +1,106 @@
+#main_container {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+#item_container {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#background_container,
+#info_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#background_container {
+  height: 45%;
+}
+
+#info_container {
+  height: 55%;
+}
+#title,
+#description {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#category_container {
+  height: 12.5%;
+  max-width: 30%;
+  margin: 0;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 2.5%;
+  align-self: flex-start;
+  background: linear-gradient(180deg, #15aeac 0%, #70c7c7 100%);
+  border-radius: 10px;
+}
+#category_container p {
+  font-size: 10px;
+  color: white;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+}
+#title {
+  height: 20%;
+  font-size: 16px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight:500;
+}
+#suggested_creators_title {
+  width: 100%;
+  height: 20%;
+  font-size: 16px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight:500;
+  margin: 0;
+  margin-top: 20%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#description {
+  height: 60%;
+  font-size: 12px;
+}
+
+#profilepic_container {
+  display: block;
+  z-index: 99;
+  position: absolute;
+  height: 35%;
+  width: 40%;
+  border: 5px solid white;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin-bottom: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}

@@ -1,0 +1,191 @@
+#top_nav_container {
+  margin: 0 auto;
+  width: 95%;
+  display: flex;
+  height: 15vh;
+  border-bottom: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(43px);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 1;
+}
+
+#top_left_side,
+#top_nav_right_side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#top_left_side {
+  height: 100%;
+  width: 35%;
+  margin-left: 5%;
+}
+
+#top_left_side a {
+  text-decoration: none;
+}
+#top_left_side a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#main_logo_container{
+  position: relative;
+  width: 80%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 2.5%;
+}
+#main_icon{
+  position: relative;
+  height: 40px;
+  width: 35px;
+  margin: 0;
+}
+#main_logo_container p {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 300;
+  font-size: 32px;
+  margin: 0;
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+#labaster_p{
+  background: conic-gradient(from 180deg at 50% 50%, #5EC3C2 -28.12deg, #0A7780 180deg, #5EC3C2 331.88deg, #0A7780 540deg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+#main_logo_container #nft_p{
+  margin-left: 2.5%;
+  color: #a85f36;
+}
+#search_bar {
+  height: 30%;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #097882f1;
+  border-radius: 20px;
+  overflow: hidden;
+}
+#search_bar button {
+  height: 100%;
+  width: 15%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: url("../../images/search_icon.png");
+  background-position: center;
+  background-size: 35%;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+
+#search_bar input {
+  height: 80%;
+  width: 85%;
+  outline: none;
+  padding-left: 2.5%;
+  border: none;
+  font-size: 10px;
+}
+#top_nav_right_side {
+  position: relative;
+  height: 100%;
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+#top_nav_right_side a {
+  font-size: 22px;
+  color: #0a7780;
+  transition: 0.3s;
+  text-decoration: none;
+  margin-right: 5%;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+}
+#top_nav_right_side #wallet_container{
+  position: relative;
+  height: 35px;
+  width: 35px;
+}
+#top_nav_right_side #user_icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+#top_nav_right_side a:hover {
+  opacity: 0.5;
+}
+#top_nav_right_side #user_icon_container {
+  height: 40px;
+  width: 40px;
+  margin-right: 6%;
+}
+#user_icon_container button {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+#user_icon_container #dropdown_container {
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 185px;
+  display: block;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  right: 0;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+#dropdown_container .dropdown_content {
+  height: 16.66%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#dropdown_container .dropdown_content:hover {
+  background: rgb(233, 233, 233);
+}
+.dropdown_content .content_img {
+  position: relative;
+  height: 100%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown_content .content_p {
+  height: 100%;
+  width: 75%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
