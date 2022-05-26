@@ -51,7 +51,8 @@ body::-webkit-scrollbar {
 
 .big_body_title p {
   font-size: 35px;
-  background: linear-gradient(180deg, #0a7780 0%, #15aeac 100%);
+  background: rgb(120,188,196);
+background: linear-gradient(180deg, rgba(120,188,196,1) 0%, rgba(247,68,78,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -90,7 +91,8 @@ body::-webkit-scrollbar {
 
 .small_body_title p {
   font-size: 35px;
-  background: linear-gradient(180deg, #0a7780 0%, #15aeac 100%);
+  background: rgb(120,188,196);
+background: linear-gradient(180deg, rgba(120,188,196,1) 0%, rgba(247,68,78,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

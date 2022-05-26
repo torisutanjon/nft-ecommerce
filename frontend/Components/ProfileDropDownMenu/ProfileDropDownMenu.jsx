@@ -5,6 +5,8 @@ import watchlist_dropdown_icon from "@/image/watchlist-icon.png";
 import collection_dropdown_icon from "@/image/collection-icon.png";
 import settings_dropdown_icon from "@/image/setting-icon.png";
 import logout_dropdown_icon from "@/image/logout-icon.png";
+import user_icon from "@/image/user_icon.png";
+
 // dependencies
 import React, { useState } from "react";
 import Image from "next/image";
@@ -30,7 +32,7 @@ export default function ProfileDropDownMenu() {
     <div id={TopNavStyles.user_icon_container}>
       <button type="button" onClick={() => dropdown_handler()}>
         {/* use usericon prop here as image src */}
-        {/* <Image id="user_icon" src={sample_user} layout="fill" /> */}
+        <Image id="user_icon" src={user_icon} layout="fill" alt="" />
       </button>
       <div
         id={TopNavStyles.dropdown_container}

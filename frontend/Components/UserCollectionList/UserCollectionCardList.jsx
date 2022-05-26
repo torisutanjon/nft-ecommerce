@@ -1,7 +1,7 @@
 // dependencies;
 import React from "react";
 //icons
-import basti_sample from "@/image/basti_sample.png";
+import nft_icon from "@/image/nft_icon.png";
 //subcomponents
 import UserCollectionCard from "@/components/UserCollectionCard/UserCollectionCard";
 
@@ -11,7 +11,7 @@ export default function UserCollectionList({ data_list }) {
       <UserCollectionCard
         id={key}
         key={key}
-        img={basti_sample}
+        img={nft_icon}
         itemname={"Basti-Multiverse# ##"}
         chaintype={"ETH"}
         creatorname={"Alabaster Inc."}

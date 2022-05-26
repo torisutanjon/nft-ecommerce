@@ -1,8 +1,6 @@
 // dependencies
-import Image from "next/image";
 import React from "react";
 // icons
-import heart_icon from "@/image/heart-icon.png";
 //subcomponents
 import EnpandedItem from "@/components/ExpandedItem/ExpandedItemDesign";
 export default function UserCollectionCard({

@@ -11,7 +11,7 @@ export default function SuggestedCollectionsList({ datalist }) {
         key={key}
         background={item_sample}
         profilepic={sample_icon}
-        title={"Basti MultiVerse"}
+        title={"NFT Collections Name"}
         category={"Virtual Worlds"}
         collectionname={"The Collection Name"}
         description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}

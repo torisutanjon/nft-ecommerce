@@ -8,9 +8,9 @@ export default function Hero() {
   return (
     <div id={HeroStyle.hero_container}>
       <div id={HeroStyle.left_side}>
-        <p id={HeroStyle.hero_title}>PUBLISH YOUR NFT WITH EASE</p>
+        <p id={HeroStyle.hero_title}>NFT E-Commerce Web Application</p>
         <p id={HeroStyle.description}>
-          Alabaster NFT geared towards making local artist on spotlight
+          NFT E-Commerce web application using MERN and Next JS.
         </p>
         <div id={HeroStyle.button_container}>
           <a href="/publish">Publish Now</a>

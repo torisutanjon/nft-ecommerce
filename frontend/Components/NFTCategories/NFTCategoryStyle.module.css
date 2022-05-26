@@ -7,12 +7,12 @@
   margin-top: 5%;
 }
 #nft_categories_title p {
-  background: linear-gradient(180deg, #0A7780 0%, #15AEAC 100%);
+  background: rgb(120,188,196);
+background: linear-gradient(180deg, rgba(120,188,196,1) 0%, rgba(247,68,78,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-size: 40px;
-  font-family: klavikabold;
 }
 #nft_categories_content {
   height: 65%;
@@ -34,7 +34,8 @@
 
 /* Handle */
 #nft_categories_content::-webkit-scrollbar-thumb {
-  background: linear-gradient(90deg, #0a7780 25.2%, #15aeac 76.02%);
+  background: rgb(247,68,78);
+  background: linear-gradient(90deg, rgba(247,68,78,1) 0%, rgba(120,188,196,1) 100%);
   border-radius: 10px;
 }
 
@@ -46,6 +47,23 @@
   margin: 3%;
   cursor: pointer;
   transition: 0.5s;
+  background: rgb(120,188,196);
+  background: linear-gradient(180deg, rgba(120,188,196,1) 0%, rgba(247,68,78,1) 100%);
+  border-radius: 25px;
+}
+.category_container div{
+  height: 100%;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+}
+.category_container p {
+  justify-self: center;
+  align-self: center;
+  font-size: 32px;
+  color: white;
 }
 .category_container:hover {
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;

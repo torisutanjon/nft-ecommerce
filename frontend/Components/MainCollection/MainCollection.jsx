@@ -1,5 +1,4 @@
 // dependencies
-import Link from "next/link";
 import React from "react";
 // icons
 import item_sample from "@/image/item_sample.png";
@@ -12,7 +11,7 @@ export default function AlabasterCollections() {
   return (
     <div className="body">
       <div className="big_body_title">
-        <p>Alabaster Collections</p>
+        <p>Main Collection</p>
       </div>
       <div className="big_body_content">
         {sample_size.map((data, key) => {
@@ -21,9 +20,9 @@ export default function AlabasterCollections() {
               <Homepage_itemdesign
                 key={key}
                 img={item_sample}
-                itemname={"Basti-Multiverse# ##"}
+                itemname={"NFT Name Here"}
                 chaintype={"ETH"}
-                creatorname={"Alabaster Inc."}
+                creatorname={"Creator Name Here"}
                 price={1}
               />
             </div>
@@ -32,32 +31,9 @@ export default function AlabasterCollections() {
       </div>
       <div className="big_body_link_footer">
         {/* <Link href="/collections"> */}
-        <a href="/collections">Scout More Basti!</a>
+        <a href="/collections">Scout More In My Collections!</a>
         {/* </Link> */}
       </div>
     </div>
   );
 }
-
-// https://jsonplaceholder.typicode.com/posts?_limit=6
-
-// this whole code still doesn't work
-
-// export async function getStaticProps() {
-//   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
-//   const posts = await res.json();
-
-//   if (!posts) {
-//     return {
-//       notFound: True,
-//     };
-//   } else {
-//     console.log("Link Found");
-//   }
-
-//   return {
-//     props: {
-//       datalist,
-//     },
-//   };
-// }

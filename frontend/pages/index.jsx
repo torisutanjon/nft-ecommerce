@@ -4,7 +4,7 @@ import React from "react";
 //subcomponents
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
-import AlasbasterCollection from "@/components/AlabasterCollections/AlabasterCollections";
+import MainCollection from "@/components/MainCollection/MainCollection";
 import SuggestedCollection from "@/components/SuggestedCollections/SuggestedCollections";
 import SuggestedCreators from "@/components/SuggestedCreators/SuggestedCreators";
 import Trending from "@/components/Trending/Trending";
@@ -27,7 +27,7 @@ export default function Home() {
         className={IndexStyles.section}
         id={IndexStyles.alabaster_collections_section}
       >
-        <AlasbasterCollection />
+        <MainCollection />
       </section>
 
       <section

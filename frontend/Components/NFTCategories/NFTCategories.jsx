@@ -13,28 +13,44 @@ export default function NFTCategories() {
       </div>
       <div id={NFTCategoryStyle.nft_categories_content}>
         <div className={NFTCategoryStyle.category_container}>
-          {/* <Image src={artbg} layout="fill" priority /> */}
+          <div>
+            <p>Art</p>
+          </div>
         </div>
         <div className={NFTCategoryStyle.category_container}>
-          {/* <Image src={cardbg} layout="fill" priority /> */}
+          <div>
+            <p>Card</p>
+          </div>
         </div>
         <div className={NFTCategoryStyle.category_container}>
-          {/* <Image src={collectiblesbg} layout="fill" priority /> */}
+          <div>
+            <p>Collectibles</p>
+          </div>
         </div>
         <div className={NFTCategoryStyle.category_container}>
-          {/* <Image src={musicbg} layout="fill" priority /> */}
+          <div>
+            <p>Music</p>
+          </div>
         </div>
         <div className={NFTCategoryStyle.category_container}>
-          {/* <Image src={photographybg} layout="fill" priority /> */}
+          <div>
+            <p>Photography</p>
+          </div>
         </div>
         <div className={NFTCategoryStyle.category_container}>
-          {/* <Image src={sportsbg} layout="fill" priority /> */}
+          <div>
+            <p>Sports</p>
+          </div>
         </div>
         <div className={NFTCategoryStyle.category_container}>
-          {/* <Image src={utilitybg} layout="fill" priority /> */}
+          <div>
+            <p>Utility</p>
+          </div>
         </div>
         <div className={NFTCategoryStyle.category_container}>
-          {/* <Image src={virtualworldbg} layout="fill" priority /> */}
+          <div>
+            <p>Virtual World</p>
+          </div>
         </div>
       </div>
     </div>

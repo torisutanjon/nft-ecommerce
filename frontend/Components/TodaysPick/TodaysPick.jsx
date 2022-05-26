@@ -12,7 +12,7 @@ export default function TodaysPick() {
   return (
     <div className="body">
       <div className="small_body_title" style={{ height: `15%` }}>
-        <p>Today's Pick</p>
+        <p>Today&apos;s Pick</p>
       </div>
       <div id={TodaysPickStyle.trending_body_content}>
         {sample_size.map((data, key) => {
@@ -21,9 +21,9 @@ export default function TodaysPick() {
               <Homepage_itemdesign
                 key={key}
                 img={item_sample}
-                itemname={"Basti-Multiverse# ##"}
+                itemname={"NFT Name Here"}
                 chaintype={"ETH"}
-                creatorname={"Alabaster Inc."}
+                creatorname={"Creator Name Here"}
                 price={1}
               />
             </div>

@@ -20,9 +20,9 @@ export default function Trending() {
               <Homepage_itemdesign
                 key={key}
                 img={item_sample}
-                itemname={"Basti-Multiverse# ##"}
+                itemname={"NFT Name Here"}
                 chaintype={"ETH"}
-                creatorname={"Alabaster Inc."}
+                creatorname={"Creator Name Here"}
                 price={1}
               />
             </div>
