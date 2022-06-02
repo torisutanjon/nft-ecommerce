@@ -57,7 +57,7 @@
   .chain_type_div {
     height: 40%;
     max-width: 15%;
-    background: linear-gradient(180deg, #15aeac 0%, #70c7c7 100%);
+    background: #a85f36;
     border-radius: 10px;
     display: flex;
     justify-content: center;

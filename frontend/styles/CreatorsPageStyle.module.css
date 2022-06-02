@@ -40,7 +40,7 @@
   height: 40%;
   width: 30%;
   margin-right: 5%;
-  color: #0c868d;
+  color: a85f36;
   font-family: 'JetBrains Mono', monospace;
   font-weight: 500;
   cursor: pointer;
@@ -51,8 +51,7 @@
   background: none;
 }
 #buttons_div button:hover {
-  background: rgba(6, 97, 102, 0.5);
-  color: rgb(255, 255, 255, 0.75);
+  background: rgb(168, 95, 54, 0.5);
 }
 #search_bar {
   height: 55%;
@@ -101,7 +100,7 @@
 
 /* Handle */
 #content::-webkit-scrollbar-thumb {
-  background: linear-gradient(90deg, #0a7780 25.2%, #15aeac 76.02%);
+  background: #a85f36;
   border-radius: 10px;
   cursor: pointer;
 }

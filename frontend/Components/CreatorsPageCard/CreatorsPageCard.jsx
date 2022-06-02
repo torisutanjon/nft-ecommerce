@@ -14,11 +14,11 @@ export default function CreatorsPageCard({
     <div className={CreatorsPageCardStyle.card} key={id}>
       <div className={CreatorsPageCardStyle.logo_container}>
         <div>
-          <Image src={image} layout="fill" />
+          <Image src={image} layout="fill" alt={"alt"} />
         </div>
       </div>
       <div className={CreatorsPageCardStyle.cover}>
-        <Image src={cover} layout="fill" />
+        <Image src={cover} layout="fill" alt={"alt"} />
       </div>
       <div className={CreatorsPageCardStyle.content}>
         <div style={{ height: `40%` }}>

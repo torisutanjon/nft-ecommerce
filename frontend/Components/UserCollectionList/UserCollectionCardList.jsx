@@ -12,9 +12,9 @@ export default function UserCollectionList({ data_list }) {
         id={key}
         key={key}
         img={nft_icon}
-        itemname={"Basti-Multiverse# ##"}
+        itemname={"NFT Name Here"}
         chaintype={"ETH"}
-        creatorname={"Alabaster Inc."}
+        creatorname={"Creator Name Here"}
         price={1}
         likecount={25}
       />

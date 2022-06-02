@@ -1,7 +1,7 @@
 //dependencies
 import React from "react";
 //icons
-import basti_sample from "../images/basti_sample.png";
+import icon from "../images/icon.png";
 
 import UserCollectionComponent from "@/components/UserCollections/UserCollectionComponent";
 import Header from "@/components/Header/Header";
@@ -30,8 +30,8 @@ export default function Collections() {
     <div id="app_main_body">
       <Header title={"Collections"} />
       <UserCollectionComponent
-        name={"Alabaster Technologies Inc."}
-        iconimg={basti_sample}
+        name={"Creator Name Here"}
+        iconimg={icon}
         description={`"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua."`}
         ownercount={1502}

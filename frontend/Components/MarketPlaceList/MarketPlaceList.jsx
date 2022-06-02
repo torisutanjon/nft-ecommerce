@@ -11,9 +11,9 @@ export default function MarketPlaceList({ sample_data }) {
         id={key}
         key={key}
         img={basti_sample}
-        itemname={"Basti-Multiverse# ##"}
+        itemname={"NFT Name Here"}
         chaintype={"ETH"}
-        creatorname={"Alabaster Inc."}
+        creatorname={"Creator Nam Here"}
         price={1}
         likecount={25}
       />

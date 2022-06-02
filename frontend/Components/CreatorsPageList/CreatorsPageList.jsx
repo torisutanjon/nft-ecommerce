@@ -3,8 +3,8 @@ import React from "react";
 //subcomponent
 import CreatorsPageCard from "../CreatorsPageCard/CreatorsPageCard";
 
-import logo from "@/image/sample_user.png";
-import cover from "@/image/alabaster-collections-hero.gif";
+import logo from "@/image/icon.png";
+import cover from "@/image/creators_cover.png";
 
 export default function CreatorsPageList({ datalist }) {
   return datalist.map((data, key) => {

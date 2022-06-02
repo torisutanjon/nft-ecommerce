@@ -2,7 +2,7 @@
 import React from "react";
 // icons
 //subcomponents
-import EnpandedItem from "@/components/ExpandedItem/ExpandedItemDesign";
+import ExpandedItem from "@/components/ExpandedItem/ExpandedItemDesign";
 export default function UserCollectionCard({
   id,
   img,
@@ -13,7 +13,7 @@ export default function UserCollectionCard({
   likecount,
 }) {
   return (
-    <EnpandedItem
+    <ExpandedItem
       key={id}
       img={img}
       itemname={itemname}

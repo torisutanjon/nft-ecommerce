@@ -86,7 +86,6 @@ export default function MarketPlace() {
   return (
     <div id="app_main_body">
       <Header title={"Marketplace"} />
-      <div id={MarketPlaceStyle.logo_div}></div>
       <div id={MarketPlaceStyle.content}>
         <div id={MarketPlaceStyle.menu_div}>
           <div id={MarketPlaceStyle.select_divs_container}>
@@ -275,11 +274,6 @@ export default function MarketPlace() {
                   </div>
                 </div>
               </div>
-              {/* <select id={MarketPlaceStyle.currency_select}>
-                <option value="bnb">BNB</option>
-                <option value="eth">ETH</option>
-                <option value="busd">BUSD</option>
-              </select> */}
             </div>
           </div>
           <div id={MarketPlaceStyle.search_bar_container}>

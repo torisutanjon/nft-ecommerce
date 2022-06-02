@@ -5,7 +5,7 @@
     margin-top: 1%;
     height: 6%;
     width: 65%;
-    background: linear-gradient(180deg, #15aeac 0%, #70c7c7 100%);
+    background: #a85f36;
     border-radius: 10px;
     color: white;
     display: flex;
@@ -61,5 +61,5 @@
   padding-left: 2.5%;
   }
    .content:hover{
-    background: #23bab791;
+    background: rgb(168, 95, 54, .5);
   }
