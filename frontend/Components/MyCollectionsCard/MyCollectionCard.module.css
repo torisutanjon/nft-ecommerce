@@ -44,10 +44,11 @@
   position: relative;
   height: 100%;
   width: 25%;
-  border: 5px solid white;
+  border: 5px solid rgb(168, 95, 54, 0.5);
   border-radius: 50%;
   z-index: 2;
   overflow: hidden;
+  background: white;
 }
 #info_div {
   height: 65%;

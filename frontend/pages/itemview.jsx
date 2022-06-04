@@ -8,7 +8,7 @@ import ItemViewStyle from "../styles/ItemViewStyle.module.css";
 
 //this is just for simuation all data must get from rest api
 //response
-import basti_image from "@/image/basti_sample.png";
+import item_sample from "../images/item_sample.png";
 
 //these variable are just for emulation
 //data must be passed from parent component where this page was triggered to be called
@@ -21,7 +21,7 @@ const chaintype = "ETH";
 const equivalentprice = "2,668.78";
 const n_owners = "100";
 const n_likes = "22";
-const itemimage = basti_image;
+const itemimage = item_sample;
 
 export default function ItemView() {
   return (
@@ -57,7 +57,7 @@ export default function ItemView() {
       </div>
       <div id={ItemViewStyle.right_side}>
         <div id={ItemViewStyle.image_div}>
-          <Image src={basti_image} layout="fill" />
+          <Image src={item_sample} layout="fill" />
         </div>
         <div id={ItemViewStyle.stats_div}>
           <div id={ItemViewStyle.owners_div}>

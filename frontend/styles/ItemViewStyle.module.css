@@ -57,7 +57,7 @@
   height: 15%;
   width: 35%;
   margin-top: 5%;
-  background: linear-gradient(270deg, #15aeac 11.94%, #70c7c7 90.28%);
+  background: #a85f36;
   border-radius: 10px;
   font-size: 25px;
   color: white;
@@ -69,7 +69,7 @@
   transition: 0.5s;
 }
 #buy_btn:hover {
-  color: #ffd700;
+  color: #3c1b07;
 }
 #offer_btn {
   height: 7.5%;
@@ -79,10 +79,10 @@
   border-radius: 10px;
   background: white;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 #offer_btn:hover {
-  color: #ffd700;
+  font-weight: 500;
 }
 #right_side {
   align-items: flex-end;

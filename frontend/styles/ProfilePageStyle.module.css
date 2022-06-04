@@ -75,7 +75,7 @@ margin-top: 2%;
 #apply_btn{
     height: 60px;
     width: 20%;
-    background: linear-gradient(270deg, #15AEAC 11.94%, #70C7C7 90.28%);
+    background: #a85f36;
     border-radius: 10px;
     border: none;
     outline: none;
@@ -95,13 +95,13 @@ margin-top: 2%;
 }
 #right_div button{
     position: relative;
-    /* background: #F2F1C5; */
     border: none;
     outline: none;
     cursor: pointer;
     border: 1px dashed rgba(69, 69, 69, 0.9);
     margin: 1%;
     overflow: hidden;
+    color: #a85f36;
 }
 #right_div form{
     height: 25%;

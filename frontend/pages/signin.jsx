@@ -80,7 +80,7 @@ const SignIn = () => {
           </button>
         </div>
         <div id={SignInUpPageStyle.lower_container}>
-          <p style={{ fontSize: `30px` }}>Sign In With</p>
+          <p style={{ fontSize: `30px`, color: "#454545" }}>Sign In With</p>
           <div id={SignInUpPageStyle.button_container}>
             <button title="Login Using Facebook Account" type="button">
               <Image src={fb_icon} layout="fill" />
@@ -92,7 +92,10 @@ const SignIn = () => {
           <a href="#" style={{ fontSize: `18px` }}>
             Forgot Password?
           </a>
-          <a href="/signup">No Account? Create Here</a>
+          <a href="/signup" style={{ display: "flex", flexDirection: "row" }}>
+            No Account?{" "}
+            <p style={{ color: "#20989a", margin: 0 }}>Create Here</p>
+          </a>
         </div>
       </div>
       <p id={SignInUpPageStyle.copyright}>&copy;2022 All rights reserved</p>

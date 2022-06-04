@@ -3,8 +3,8 @@ import React from "react";
 //subcomponent
 import MyCollectionCard from "@/components/MyCollectionsCard/MyCollectionCard";
 
-import cover from "../../images/alabaster-collections-hero.gif";
-import profilepic from "../../images/basti_sample.png";
+import cover from "../../images/nft.gif";
+import profilepic from "../../images/user_icon.png";
 
 export default function MyCollectionList({ datalist }) {
   return datalist.map((data, key) => {
@@ -13,7 +13,7 @@ export default function MyCollectionList({ datalist }) {
         key={key}
         cover={cover}
         profilepic={profilepic}
-        title={"Lorem Ipsum"}
+        title={"Collection Name Here"}
         collectionname={"Collection Name"}
       />
     );

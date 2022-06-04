@@ -3,8 +3,8 @@ import React from "react";
 //subcomponent
 import ArtCollectionCard from "../ArtCollectionCard/ArtCollectionCard";
 
-import cover from "../../images/alabaster-collections-hero.gif";
-import profilepic from "../../images/basti_sample.png";
+import cover from "@/image/nft.gif";
+import profilepic from "@/image/user_icon.png";
 
 export default function ArtCollectionList({ datalist }) {
   return datalist.map((data, key) => {

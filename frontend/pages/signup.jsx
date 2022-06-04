@@ -89,7 +89,9 @@ export default function SignUpPage() {
               <p id={SignInUpPageStyle.error_p}>{error}</p>
             </div>
           )}
-          <p id={SignInUpPageStyle.form_title}>Please fill out the form</p>
+          <p id={SignInUpPageStyle.form_title} style={{ color: "#454545" }}>
+            Please fill out the form
+          </p>
           <form>
             <div>
               <input

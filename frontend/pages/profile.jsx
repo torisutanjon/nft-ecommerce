@@ -143,7 +143,7 @@ export default function ProfilePage() {
             onChange={(e) => setEmail(e.target.value)}
           />
           <p style={{ marginBottom: `2%` }}>Link Social Account</p>
-          <p style={{ fontSize: `22px`, color: `#21989A` }}>Facebook</p>
+          <p style={{ fontSize: `22px`, color: `#a85f36` }}>Facebook</p>
           <input
             type="email"
             style={{ height: `40px` }}
@@ -152,7 +152,7 @@ export default function ProfilePage() {
             value={fblink}
             onChange={(e) => setFblink(e.target.value)}
           />
-          <p style={{ fontSize: `22px`, color: `#21989A` }}>LinkedIn</p>
+          <p style={{ fontSize: `22px`, color: `#a85f36` }}>LinkedIn</p>
           <input
             type="email"
             style={{ height: `40px` }}
@@ -161,7 +161,7 @@ export default function ProfilePage() {
             value={linkedinlink}
             onChange={(e) => setLinkedInLink(e.target.value)}
           />
-          <p style={{ fontSize: `22px`, color: `#21989A` }}>Twitter</p>
+          <p style={{ fontSize: `22px`, color: `#a85f36` }}>Twitter</p>
           <input
             type="email"
             style={{ height: `40px` }}

@@ -54,7 +54,7 @@
   width: 30%;
   border: none;
   outline: none;
-  background: linear-gradient(180deg, #20989a 0%, #70c7c7 100%);
+  background: #a85f36;
   border-radius: 10px;
   font-family: 'JetBrains Mono', monospace;
   font-weight: 500;
@@ -138,6 +138,7 @@
   margin-top: 2.5%;
   text-decoration: none;
   font-size: 22px;
+  color: rgb(0, 0, 0, 0.75);
 }
 
 #copyright{
