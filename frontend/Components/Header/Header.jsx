@@ -16,7 +16,7 @@ export default function Header({ keywords, description, title }) {
 }
 
 Header.defaultProps = {
-  title: `Alabaster Tech Inc.`,
+  title: `NFT E-Commerce Website`,
   keywords: `nft, nfts, blockchain, etherium, opensea, bitcoin, crypto, stockmarket`,
   description: `Get the trends about NFT`,
 };
